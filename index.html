@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <form id="form">
+    
+                <input type="text" name="veg" placeholder="vegetable">
+                <br>
+                <input type="text" name="color" placeholder="color">
+                <br>
+                <label for="">Does this veg taste nice?
+                    <label for="">Yes
+                        <input type="radio" name="selection" value="y">
+                    </label>
+                    <label for="">No
+                        <input type="radio" name="selection" value="n">
+                    </label>
+                </label>
+                <br>
+                <button>Add new veg</button>
+        </form>
+    </div>
+
+    <div class="cont" id="container2">
+
+        <table class="table is-bordered">
+            <thead>
+                <th>Name</th>
+                <th>Color</th>
+                <th>Taste</th>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
