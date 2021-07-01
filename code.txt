@@ -1,0 +1,20 @@
+function confirmTaste() {
+        if (e.target.elements.selection.value === 'y') {
+        
+            return e.target.elements.selection.value = true
+
+        } else if (e.target.elements.selection.value === 'n') {
+         
+            return e.target.elements.selection.value = false
+        }
+    }
+
+document.querySelector('input[name="veg"]').addEventListener('click', myFunc)
+
+function myFunc(params) {
+    console.log(document.querySelector('input[name="veg"]').value = 'hey');
+}
+
+<td class="change"><span style="background: green;">${basket[i].changeStatus()}</span></td>
+
+document.querySelectorAll('.change').addEventListener('click', )
